@@ -1,0 +1,34 @@
+#
+Creating an App
+
+1) Development Part
+
+Creating a navx-file
+    GetCreateupdate Manifest
+        New-NAVAppManifest
+        Set-NAVAppManifest
+        Get-NAVAppManifest
+        New-NAVAppManifestFile
+        Get-NAVAppInfo
+    Exporting NAVApp Metadata
+        Export- NAVAppPermissionSet
+        Export-NAVAppReportLayout
+        Export-NAVAppTableData 
+        Export-NAVAppTenantWebService
+    Packaging into a NAVX
+        New-NAVAppPackage
+
+2) Administration Part
+
+Deploying a navx-file
+    Publising an Extension
+        Publish-NAVApp
+        Unpublish-NAVApp
+        Installing an Extension
+        Install-NAVApp
+        Uninstall-NAVApp
+    Managing the Extension
+        Get-NAVAppInfo
+        Get-NAVAppTenant
+        Repair-NAVApp
+#
